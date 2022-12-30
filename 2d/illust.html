@@ -1,122 +1,103 @@
 <!doctype html>
 <html>
-    
-    <head>
-        <title>Kaixin Xie</title>
-        <link href="../main.css" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:900&display=swap" rel="stylesheet"> 
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap" rel="stylesheet">
-    
-        <script type="text/javascript" src="../layout.js"></script>
-    </head>
-    
-    <body>
-    
-   <div class="wrapper"> 
-       <div class="topbar">
-        <div class="home"><a href="../index.html"><img class="brandlogo" src="../images/logo.png"> Kaixin Xie</a></div>
-                <ul>
-                    <li class="active"><a class="active" href="../index.html">Work</a></li>
-                    <li><a href="../about.html">About</a></li>
-                    <li><a href="../resume.html" target="_blank">Resume</a></li>
-                </ul>
+
+<head>
+    <title>Kaixin Xie</title>
+    <link href="../main.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap" rel="stylesheet">
+
+    <script type="text/javascript" src="../layout.js"></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="topbar">
+            <div class="home"><a href="../index.html"><img class="brandlogo" src="../images/logo.png"> Kaixin Xie</a>
             </div>
+            <ul>
+                <li class="active"><a class="active" href="../index.html">Work</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../resume.html" target="_blank">Resume</a></li>
+            </ul>
+        </div>
         <header>
             <h1>Read Over the Great Wall</h1>
-            <!-- <p>The below two designs are to criticize the Obscurantism of the society which coerces people -->
-                <!-- to either live blindly or die because certain force is delibrately limiting and restricting people's knowledge to the truth.</p> -->
+            <p style="text-align: center;">Read Over the Great Wall is a tool that works like a translator. It encrypts sensitive words that are blocked on Chinese social media platforms.</p>
+            
         </header>
-        <div class="albums">
-        <div class="albumf"><img src="images/illust/wall1.png"></div>
-        <div class="albumf"><img src="images/illust/wall2.png"><p>Examples of different encrypted versions of article &quot;The Whistleblower&quot;. <br>
-            Copyright belongs to various creators (names below the titles in the images.)</p></div>
-        <div class="albumf"><img src="images/illust/wall3.png"><p>Screenshots of the website &amp; code snippet.<br><br></p></div>
-        </div>
-        <div class="wrapperwall"> 
-        <div>
-            <p class="golink">Try the tool here:</p>
-        </div>
-        <div class="frame">
-            <div class="input">
-                <header>
-                <h1>Your Text</h1>
-                </header>
-                <div class="inputbox">
+        <div class="wrapperwall">
+            <div class="walltitle">
+                <img class="walllogo" src="images/illust/walllogo2.png">
+                <p class="golink">Try the tool here:</p>
+            </div>
+            <div class="frame">
+                <div class="input">
+                    <header>
+                        <h1>Your Text</h1>
+                    </header>
+                    <div class="inputbox">
                         <input type="text" id="fname" name="fname" placeholder="Words to be encrpyted/decrypted...">
-                        
+
+                    </div>
                 </div>
-            </div>
-            <div class="output">
-                <header>
-                <h1>Result</h1>
-                </header>
-                <div class="outputbox">
+                <div class="output">
+                    <header>
+                        <h1>Result</h1>
+                    </header>
+                    <div class="outputbox">
                         <div class="msg"></div>
-                    
+
+                    </div>
                 </div>
-            </div>   
-            <div class="submit">
-                <input id="add" type="submit" value="Add to the list">
-                <input id="decrypt" type="submit" value="Decrypt">
-                <input id="encrypt" type="submit" value="Encrypt">
-                
+                <div class="submit">
+                    <input id="add" type="submit" value="Add to the list">
+                    <input id="decrypt" type="submit" value="Decrypt">
+                    <input id="encrypt" type="submit" value="Encrypt">
+
+                </div>
+            </div>
+            <div class="reference">
+                <h3>
+                    A list of sensitive words that have been collected so far:
+                </h3>
+                <p>
+                    White Paper protest, Uyghur, Tattoo, Xinjiang, Guonan, Support HK,
+                    Dictatorship, Winnie the Pooh, Dalai Lama, June 4, independence
+                </p>
+            </div>
+            <div class="golink" style="margin-bottom: 100px;">
+                <p>Go to Read Over the Great Wall website: <a
+                        href="https://dark-pistachio.github.io/ReadOvertheGreatWall/" target="_blank">click here</a>
+                </p>
             </div>
         </div>
-        <div class="reference">
-            <h3>
-                A list of sensitive words that have been collected so far:
-            </h3>
-            <p>
-                White Paper protest, Uyghur, Tattoo, Xinjiang, Guonan, Support HK, 
-            Dictatorship, Winnie the Pooh, Dalai Lama, June 4, independence 
-            </p>
-        </div>
-        <div class="golink" style="margin-bottom: 100px;">
-            <p>Go to Read Over the Great Wall website: <a href="https://dark-pistachio.github.io/ReadOvertheGreatWall/" target="_blank">click here</a>
-            </p>
-        </div>
+
+        <div class="albums">
+            <div class="albumf"><img src="images/illust/wall1.png"></div>
+            <div class="albumf"><img src="images/illust/wall2.png">
+                <p>Examples of different encrypted versions of article &quot;The Whistleblower&quot;. <br>
+                    Copyright belongs to various creators (names below the titles in the images.)</p>
+            </div>
+            <div class="albumf"><img src="images/illust/wall3.png">
+                <p>Screenshots of the website &amp; code snippet.<br><br></p>
+            </div>
         </div>
         <!-- ----------------------------------- -->
 
-       <header>
-           <h1>Social Commentary Graphics</h1>
-           <!-- <p>The below two designs are to criticize the Obscurantism of the society which coerces people -->
-            <!-- to either live blindly or die because certain force is delibrately limiting and restricting people's knowledge to the truth.</p> -->
-       </header>
-       <div class="albums">
-        
-           <!-- <div class="albumf"><img src="images/illust/illust1.jpg"></div> -->
-           <!-- <div class="albumf"><img src="images/illust/illust3.jpg"></div> -->
-           <div><img src="images/illust/illust7.png"></div>
-           <div class="commen">
-            <h3>Blind or Die</h3><p>This work is based on traditional Chinese couplets and 
-                couplet dolls. Usually, the words on the couplets are blessings and good wishes 
-                for the New Year. I recreated it by changing the blessing words to &quot;blind&quot; 
-                and &quot;dies&quot; to reflect on obscurantism that people are either put to death 
-                or become fools and know nothing.</p></div>
-           
-            <div class="commen" style="text-align: right;"><h3>Shadow</h3><p>This work is created from a collection of &quot;404&quot; errors 
-                (the rooster) and an alert page (the shadow) of a banned commentary article about a recent social issue. I use a rooster as a metaphor for China, because the shape of the Chinese territory is very similar to a rooster. 
-                So I visually present that people living in China are under the shadow of a rooster with no freedom of speech.
-                I want to draw people&apos;s attention to the freedom of mass media and 
-                criticize the restrictive censorship of social commentary articles.</p></div>
-            <div><img src="images/illust/rooster2.png"></div>
-           <div><img src="images/illust/illust6.png"></div>
-            <div class="commen"><h3>Under the Light</h3><p>This work also criticizes obscurantism which makes people only 
-                see what they want to see and what is good on the surface, while turning a blind eye 
-                to injustice. However, only seeing what they want to see can never solve real problems.</p></div>
-           <!-- <div><img src="images/illust/illust4.jpg"></div>
-           <div><img src="images/illust/illust5.jpg"></div> -->
-       </div>
-       <!-- <div id="fullpage" onclick="this.style.display='none';"></div> -->
        
-       
-       <footer>
-           Kaixin Xie
-       </footer>
-       
-    </div>     
-    </body>
-    <script src="./index.js"></script>
+
+
+        <footer>
+            Kaixin Xie
+        </footer>
+
+    </div>
+</body>
+<script src="./index.js"></script>
+
 </html>
