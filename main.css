@@ -22,7 +22,7 @@ div iframe {
 }
 p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 12pt;
+    font-size: 11pt;
 }
 
 .topbar {
@@ -100,28 +100,30 @@ footer {
 
 
 h1 {
-    text-align: center;
-    font-size: 17pt;
+    text-align: left;
+    font-size: 24pt;
     padding-top: 140px;
-/*    text-transform: uppercase;*/
     color: #404E66;
 }
 header p {
-    margin: 70px 13% 65px 12.5%;
     text-align: left;
     color: #565656;
-    font-size: 13pt;
+    font-size: 11pt;
+    margin-top: 10px;
 }
 
 header {
-    text-align: center;
+    margin: 0px 13% 0 12%;
+    text-align: left;
 }
 
 .about {
     margin: 0 auto;
     padding-bottom: 10%;
-    font-size: 13pt;
     color: #404E66;
+}
+.about h3{
+    font-size: 13pt;
 }
 .bio {
     width: 100%;
@@ -152,11 +154,7 @@ header {
     display: grid;
     grid-template-rows: 350px 520px;
 }
-.da {
-/*
-    grid-row: 2;
-    display: grid;
-*/    
+.da { 
     margin: 9% auto;
 }
 
@@ -195,16 +193,15 @@ header {
     margin: auto 30px 25px;
 }
 .insp h2{
-/*    display: grid;*/
+
     text-align: center;
     line-height: 330px;
-/*    align-items: baseline;*/
+
     font-size: 40pt;
     color: #6CB1E0;
     opacity: 100%;
 }
 .parallax p{
-/*    display: grid;*/
     text-align: center;
     line-height: 10px;
     font-size: 15pt;
@@ -219,7 +216,7 @@ header {
     background-position: center;
     background-repeat:no-repeat;
     background-size: 100%;
-    opacity: 65%;
+    /* opacity: 65%; */
 }
 
 .bio2 {
@@ -248,7 +245,7 @@ header {
 }
 .cnt {
     grid-column: 2/2;
-    /* grid-template-columns: 30% auto; */
+
     text-align: left;
     align-items: center;
     text-decoration: none;
@@ -277,7 +274,7 @@ header {
 }
 
 .social li {
-    /* height: 30px; */
+
     text-align: left;
     margin-right: 80px;
 }
@@ -297,12 +294,12 @@ header {
 .gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-/*    grid-column: 1/4;*/
+
     grid-gap: 3%;
     margin: auto 8%;
     padding-top: 2%;
     padding-bottom: 260px;
-/*    align-items: center;*/
+
     text-align: center;
 }
 
@@ -315,18 +312,15 @@ header {
 }
 
 .galleryhead {
-/*    grid-column: 1/4;*/
     width: 310px;
     height: 400px;
     line-height: 400px;
     z-index: 10;
     position: absolute;
     text-align: center;
-/*    display: inline-block;*/
     display: none;
     align-items: center;
     color: #404E66;
-    /* font-size: 30pt; */
     font-weight: 400;
 }
 .galleryhead p{
@@ -335,19 +329,15 @@ header {
 .category h3{
     font-size: 14pt;
     color: #404E66;
-    /* margin-bottom: 325px; */
-    /* line-height: 40px; */
-    /* font-family: 'Montserrat', sans-serif; */
-    font-weight: 700;
+ 
 }
 
 .category {
     align-self: flex-start;
     text-align: left;
-    font-size:13pt;
     line-height: 25px;
     color: #565656;
-    /* margin: 30px auto auto 10px; */
+
     background-color: #e7ebef8b;
     padding: 15px;
     padding-left: 20px;
@@ -356,8 +346,19 @@ header {
 
 .category p{
     margin-top: 10px;
+    font-size: 10.5pt;
 }
 
+.category a {
+    text-decoration: none;
+    color: #404E66;
+}
+
+.category a:hover{
+    color: #6CB1E0;
+}
+
+/* 
 .allworks {
     width: 100%;
     margin: 30px 0 70px 0;
@@ -367,8 +368,7 @@ header {
 
 .allworks img {
     width: 40%;
-/*    margin: 0 auto;*/
-/*    height: 500px;*/
+
     padding: 10px;
     
 }
@@ -383,13 +383,13 @@ header {
     font-weight: normal;
     color: #757575;
     margin-bottom: 25px;
-}
+} */
 
 .albums {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 50px;
-    margin: 6% 12% 40px 12%;
+    margin: 3.5% 12% 40px 12%;
     text-align: center;
 }
 .albums img {
@@ -402,6 +402,7 @@ header {
     color: #757575;
     margin-top: 15px;
     margin-bottom: 25px;
+    font-size: 10pt;
 }
 
 /* for illust layout */
@@ -429,7 +430,7 @@ header {
 
 .wall {
     width: 100%;
-    /* margin: 40px auto; */
+
 }
 .wall img{
     width: 85%;
@@ -457,12 +458,13 @@ header {
 }
 
 .commen {
-    /* display: flex; */
+
     align-self: flex-end;
     text-align: left;
 }
 .commen p{
     margin-bottom: 0px;
+    font-size: 10.5pt;
 }
 
 .lighting {
@@ -539,21 +541,20 @@ header {
     color: #436a4f;
 }
 .golink{
-    /* width: 90%; */
     margin: 0 auto 0px;
     text-align: center;
-    font-size: 15pt;
+    font-size: 12pt;
 }
 .walltitle{
     width: 100%;
 }
 .walltitle img{
-    width: 130px;
+    width: 80px;
     display: block;
+    margin-top: 70px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
-    border-radius: 70px;
 }
 
 .frame {
@@ -569,18 +570,20 @@ header {
     grid-column: 1/2;
 }
 .input header{
-    padding: 15px 30px;
+    padding: 15px 30px 15px 0px;
     text-align: left;
     color: #436a4f;
-    font-size: 14pt;
+    
 }
 .input h1{
     color: #436a4f;
     padding-top: 60px;
+    font-size: 17pt;
 }
 .output h1{
     color: #436a4f;
     padding-top: 60px;
+    font-size: 17pt;
 }
 
 .inputbox{
@@ -614,10 +617,9 @@ header {
     grid-column: 2/2;
 }
 .output header{
-    padding: 15px 30px;
+    padding: 15px 30px 15px 0px;
     text-align: left;
     color: #436a4f;
-    font-size: 14pt;
 }
 
 .outputbox{
@@ -642,7 +644,6 @@ header {
     font-weight: bolder;
 }
 .msg p{
-    /* display: block; */
     text-align: left;
     font-family: Raleway;
     align-items: center;
@@ -654,8 +655,6 @@ header {
 .submit{
     display: grid;
     grid-template-columns:40% 30% 30%;
-    /* padding-left: 70%;
-    margin-right: 20px; */
 }
 .submit input{
     width: 110px;
@@ -663,7 +662,6 @@ header {
     background-color: #436a4f;
     border-style: solid;
     border-color: #436a4f;
-    /* border-width: 2px; */
     border-radius: 26px;
     font-size: 20px;
     font-weight: 500;
@@ -672,7 +670,6 @@ header {
 }
 .submit #add{
     display: grid;
-    /* grid-column: 1/3; */
     width: 150px;
     height: 42px;
     margin: 0 auto 0 25px;
@@ -708,19 +705,19 @@ header {
     align-content: center;
     text-align: center;
     border-style: none;
-    /* border-top-color: #49756881; */
     background-color: #d0e6d451;
     border-radius: 20px;
     padding: 20px;
 }
 .reference h3{
     margin: 40px auto;
-    font-size: 16pt;
+    font-size: 13.5pt;
     font-weight: bolder;
 }
 
 .reference p{
     margin: 30px 20%;
-    font-size: 14pt;
+    font-size: 11pt;
+    line-height: 20px;
     color: #6f7c73;
 }
